@@ -9,7 +9,7 @@ APP_NAME = "PokéCraft"
 st.title(f"✨ ¡Bienvenido a {APP_NAME}! ⚡️")
 st.markdown("---")
 
-# --- REQUERIMIENTO 1a: Problema a Resolver ---
+# --- Problema a Resolver ---
 st.header("1. El Problema a Resolver: La Confusión de Tipos")
 st.markdown("""
 En el mundo Pokémon, la clave de la victoria está en el conocimiento de los **tipos** y sus interacciones. 
@@ -43,7 +43,7 @@ with col2:
 
 st.markdown("---")
 
-# --- REQUERIMIENTO 1c: Cómo PokéCraft Resuelve el Problema ---
+# --- Cómo PokéCraft Resuelve el Problema ---
 st.header("3. La Solución: PokéCraft, Tu Guía de Combate")
 
 st.info("""
@@ -55,7 +55,7 @@ En lugar de revisar tablas complejas, el usuario:
 3. **Muestra instantáneamente** qué tipos usar para el ataque o para la defensa, transformando la confusión en conocimiento estratégico.
 """)
 
-# --- REQUERIMIENTO 3: Ejemplo de Archivo Multimedia Adicional ---
+# --- Ejemplo de Archivo Multimedia Adicional ---
 st.subheader("¡Mira cómo funciona conceptualmente!")
 # Simulación de un video explicativo
 st.video("https://www.youtube.com/watch?v=KrvA0fznXGM")
@@ -63,3 +63,4 @@ st.caption("Explicación simple de la tabla de tipos de pokémon")
 
 st.markdown("---")
 st.markdown("¡Si quieres saber más, dirígete a la página **'Guia'** para crear tu estrategia!")
+
