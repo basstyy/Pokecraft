@@ -104,7 +104,7 @@ if search_button:
                 </div>
                 """, unsafe_allow_html=True)
             
-            # --- RECOMENDACIÓN DE EQUIPO (mejorada con imágenes reales) ---
+            # --- RECOMENDACIÓN DE EQUIPO ---
             st.markdown("---")
             st.subheader("Recomendación de Equipo")
 
@@ -161,3 +161,4 @@ if search_button:
 
 else:
     st.info("Selecciona el tipo de Pokémon a vencer en la barra lateral izquierda y presiona el botón.")
+
