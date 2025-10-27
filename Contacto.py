@@ -17,7 +17,7 @@ st.subheader("Año: 2025")
 
 st.markdown("---")
 
-# Datos de los Integrantes (Reemplazar con datos reales)
+# Datos de los Integrantes
 st.header("Nuestro Equipo de Entrenadores")
 
 # Uso de columnas para listar a los integrantes
@@ -51,4 +51,5 @@ with col_integrante3:
     st.image("steven.webp", caption="CEO", use_column_width=True)
     
 st.markdown("---")
+
 st.markdown("### ¡Gracias por usar PokéCraft! ¡Atrápalos a todos! 🏆")
